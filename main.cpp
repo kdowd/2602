@@ -33,7 +33,7 @@ int main()
 
     // measure
     double elapsed_seconds = chrono::duration_cast<chrono::duration<double>>(finish - start).count();
-    cout << num << "\nDuration = " << elapsed_seconds << endl;
+    cout << num << "\nDuration is = " << elapsed_seconds << endl;
 
     //answer from ThinkStation
 
